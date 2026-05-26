@@ -32,7 +32,9 @@ cd fastapi-issue-tracker
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate  
+# On Windows: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# On Windows: .venv\Scripts\activate
 ```
 
 3. Install dependencies:

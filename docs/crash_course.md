@@ -49,6 +49,7 @@ Enable the virtual environment:
 
 ```bash
 # Windows
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\.venv\Scripts\activate
 
 # MacOS or Linux
